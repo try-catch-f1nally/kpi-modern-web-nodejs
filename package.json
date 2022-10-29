@@ -16,7 +16,8 @@
     "lint:fix": "eslint --ignore-path .gitignore --fix ./src/**/*.ts",
     "lint:ec": "editorconfig-checker",
     "format": "prettier --ignore-path .gitignore --ignore-unknown --check .",
-    "format:fix": "prettier --ignore-path .gitignore --ignore-unknown --write ."
+    "format:fix": "prettier --ignore-path .gitignore --ignore-unknown --write .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -43,6 +44,8 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-sonarjs": "^0.16.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
