@@ -9,7 +9,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/recommended',
     'plugin:import/typescript',
-    'plugin:sonarjs/recommended'
+    'plugin:sonarjs/recommended',
+    'plugin:prettier/recommended'
   ],
   overrides: [],
   parser: '@typescript-eslint/parser',
@@ -19,10 +20,6 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: ['./tsconfig.json']
   },
-  plugins: [
-    '@typescript-eslint',
-    'import',
-    'sonarjs'
-  ],
+  plugins: ['@typescript-eslint', 'import', 'sonarjs', 'prettier'],
   rules: {}
 };
