@@ -1,0 +1,27 @@
+{
+  "name": "kpi-modern-web-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/try-catch-f1nally/kpi-modern-web-nodejs.git"
+  },
+  "keywords": [],
+  "author": "Mykyta Kulbanevych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/try-catch-f1nally/kpi-modern-web-nodejs/issues"
+  },
+  "homepage": "https://github.com/try-catch-f1nally/kpi-modern-web-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
