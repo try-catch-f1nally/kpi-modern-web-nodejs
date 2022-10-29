@@ -1,1 +1,1 @@
-Developed by Mykyta Kulbanevych, group IA-02
+Developed by Mykyta Kulbanevych & Karyna Sobkovska, group IA-02
