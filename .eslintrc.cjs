@@ -21,5 +21,8 @@ module.exports = {
     project: ['./tsconfig.json']
   },
   plugins: ['@typescript-eslint', 'import', 'sonarjs', 'prettier'],
-  rules: {}
+  rules: {
+    'sonarjs/no-ignored-return': ['off'],
+    '@typescript-eslint/no-misused-promises': ['error', {checksVoidReturn: false}]
+  }
 };
